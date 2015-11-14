@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'SZXQ' target in the 'SZXQ' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+#define kUser         @"user"
+
+#define kNotifyDataSyncFininshed @"DataSyncFininshed"
+#define kNotifyDataSyncFailed    @"DataSyncFailed"
+
+#define LIGHT_BLUE_UICOLOR [UIColor colorWithRed:238.0f/255.0 green:244.0f/255.0 blue:255.0f/255.0 alpha:1.0f]
+
+#define CELL_HEADER_COLOR [UIColor colorWithRed:0.530f green:0.600f blue:0.738f alpha:1.000f]
